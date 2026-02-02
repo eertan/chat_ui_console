@@ -1,6 +1,6 @@
 # Agent UI with Chainlit
 
-This project implements a Chainlit-based GUI for a Python agent, featuring a "Thinking" protocol that visually distinguishes internal reasoning from conversational output.
+This project implements a Streamlit-based GUI for a Python agent, featuring a "Thinking" protocol that visually distinguishes internal reasoning from conversational output.
 
 ## Setup
 
@@ -13,10 +13,10 @@ Ensure you have [uv](https://github.com/astral-sh/uv) installed.
 
 ## Running the Application
 
-To start the Chainlit UI:
+To start the Streamlit UI:
 
 ```bash
-uv run chainlit run main.py -w
+uv run streamlit run app.py
 ```
 
 *   The `-w` flag enables auto-reloading on file changes.
